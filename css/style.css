@@ -5,11 +5,11 @@ body {
     color: #000000;
     margin: 0;
     padding: 0;
-    min-width: 1200px;
+    min-width: 1230px;
 }
 
 .container {
-    width: 1020px;
+    width: 1170px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -30,8 +30,6 @@ body {
     padding-top: 23px;
     padding-bottom: 23px;
 }
-
-/* Header */
 
 .main-header {
     padding-top: 35px;
@@ -141,8 +139,6 @@ body {
     color: #bcb3f2;
 }
 
-/* Features */
-
 .features {
     padding-top: 50px;
     padding-bottom: 45px;
@@ -207,8 +203,6 @@ body {
     background-position: 78px 1px;
 }
 
-/* Training */
-
 .training {
     padding-top: 13px;
     padding-bottom: 70px;
@@ -219,8 +213,8 @@ body {
     font-weight: bold;
     font-size: 45px;
     line-height: 50px;
-    margin: o auto;
-    margin-bottom: 60px;
+    margin: 0 auto 60px;
+    /*margin-bottom: 60px;*/
 }
 
 .training table {
@@ -240,7 +234,8 @@ body {
     padding-right: 45px;
 }
 
-.training table tr, .training table td {
+.training table tr,
+.training table td {
     border: 2px solid #a7a7a7;
     padding: 20px 35px 20px 30px;
 }
@@ -258,8 +253,6 @@ body {
     padding-right: 44px;
     padding-top: 22px;
 }
-
-/* Contacts */
 
 .contacts {
     padding-top: 50px;
@@ -284,6 +277,7 @@ body {
 .contacts-form {
     float: left;
     width: 640px;
+
 }
 
 .contacts-form table {
@@ -309,7 +303,9 @@ body {
     padding-right: 8px;
     width: 95px;
     font-family: "Trebuchet MS", Arial, sans-serif;
+
     vertical-align: middle;
+
 }
 
 .contacts-form .field {
@@ -317,11 +313,15 @@ body {
     font-family: Tahoma, sans-serif;
 }
 
+
 .contacts-form .field label {
+
     padding-left: 15px;
+
 }
 
-.contacts-form input[type="text"], .contacts-form textarea {
+.contacts-form input[type="text"],
+.contacts-form textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -331,13 +331,16 @@ body {
     border: 2px solid #b2b2b2;
     background-color: #fff;
     padding: 15px 30px 16px 24px;
+
 }
 
-.contacts-form input[type="text"]:hover, .contacts-form textarea:hover {
+.contacts-form input[type="text"]:hover,
+.contacts-form textarea:hover {
     border: 2px solid #7f7f7f;
 }
 
-.contacts-form input[type="text"]:active, .contacts-form textarea:active {
+.contacts-form input[type="text"]:active,
+.contacts-form textarea:active {
     border: 2px solid #6451d5;
 }
 
@@ -345,6 +348,7 @@ body {
     min-height: 105px;
     resize: none;
     padding-bottom: 20px;
+
 }
 
 .contacts-form .btn-contacts {
@@ -389,8 +393,6 @@ body {
     font-weight: bold;
 }
 
-/* Footer */
-
 .main-footer {
     padding-top: 65px;
     padding-bottom: 75px;
@@ -419,6 +421,7 @@ body {
 
 .footer-address p {
     margin: 0;
+
 }
 
 .footer-menu {
@@ -450,6 +453,7 @@ body {
     margin-bottom: 26px;
 }
 
+
 .footer-menu ul:last-child {
     margin-bottom: 24px;
 }
@@ -469,3 +473,5 @@ body {
     opacity: 0.3;
     color: #69667d;
 }
+
+
